@@ -1,6 +1,5 @@
 # Landing Busnack
-
-Landing para promocionar aplicacion web. Busnack permite digitalizar, agilizar y automatizar la venta de alimentos y bebidas dentro de los buses, a través de la implementación de una carta digital y auxiliar en el bus.
+Landing to promote web application. Busnack allows to digitize, streamline and automate the sale of food and beverages inside the buses, through the implementation of a digital and auxiliary menu in the bus.
 
 ![Screenshot](1.png)
 ![Screenshot](2.png)
