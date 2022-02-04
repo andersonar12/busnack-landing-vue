@@ -1,0 +1,15 @@
+@include mobile {
+  main {
+    height: auto;
+
+    .content {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  section:not(.carousel) {
+    height: auto;
+    padding: 0;
+  }
+}

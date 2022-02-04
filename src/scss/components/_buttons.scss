@@ -1,0 +1,25 @@
+.bus-btn {
+  cursor: pointer;
+  height: auto;
+  width: max-content;
+  padding: 18px 50px;
+
+  background: $color-orange-dark 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px #0045bf1a;
+  border: 1px solid $color-orange-lite;
+  border-radius: 39px;
+
+  transition: transform 0.2s ease-in-out;
+
+  span {
+    color: $color-white;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    transform: scale(0.95);
+  }
+}

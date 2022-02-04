@@ -1,0 +1,24 @@
+footer {
+  width: 100%;
+  height: 198px;
+  padding: 0 140px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: $color-orange-dark;
+  color: $color-white;
+
+  .data {
+    p:first-child {
+      font-family: 'SF-Pro-Display-Semibold';
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+    }
+
+    img {
+      width: 80px;
+    }
+  }
+}

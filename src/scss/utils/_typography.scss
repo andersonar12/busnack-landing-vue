@@ -1,0 +1,89 @@
+$name-font: 'SF-Pro-Display';
+
+@font-face {
+  src: url($path-fonts + '#{$name-font}-Light.ttf') format('truetype');
+  font-family: '#{$name-font}-Light';
+  font-weight: 200;
+}
+
+@font-face {
+  src: url($path-fonts + '#{$name-font}-Regular.ttf') format('truetype');
+  font-family: '#{$name-font}-Regular';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url($path-fonts + '#{$name-font}-Medium.ttf') format('truetype');
+  font-family: '#{$name-font}-Medium';
+  font-weight: 500;
+}
+
+@font-face {
+  src: url($path-fonts + '#{$name-font}-Semibold.ttf') format('truetype');
+  font-family: '#{$name-font}-Semibold';
+  font-weight: 600;
+}
+
+@font-face {
+  src: url($path-fonts + '#{$name-font}-Bold.ttf') format('truetype');
+  font-family: '#{$name-font}-Bold';
+  font-weight: 700;
+}
+
+@font-face {
+  src: url($path-fonts + '#{$name-font}-Heavy.ttf') format('truetype');
+  font-family: '#{$name-font}-Heavy';
+  font-weight: 800;
+}
+
+html {
+  font-size: 16px;
+
+  @include laptop {
+    font-size: 12px;
+  }
+
+  // @include mobile {
+  //   font-size: 8px;
+  // }
+}
+
+body {
+  font-family: sans-serif;
+  color: $color-black;
+
+  h1,
+  h2,
+  h3,
+  p,
+  span {
+    color: inherit;
+  }
+
+  h1 {
+    font-family: 'SF-Pro-Display-Medium';
+    font-size: 72px;
+  }
+
+  h2 {
+    font-family: 'SF-Pro-Display-Heavy';
+    font-size: 2.375rem;
+  }
+
+  h3 {
+    font-family: 'SF-Pro-Display-Medium';
+    font-size: 1.375rem;
+  }
+
+  p:not(.unset) {
+    font-family: 'SF-Pro-Display-Regular';
+    font-size: 1.125rem;
+    letter-spacing: 0.36px;
+    line-height: 26px;
+  }
+
+  span:not(.unset) {
+    font-family: 'SF-Pro-Display-Semibold';
+    font-size: 18px;
+  }
+}

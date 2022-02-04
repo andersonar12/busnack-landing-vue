@@ -1,0 +1,6 @@
+@charset 'utf-8';
+@import 'utils/variables', 'utils/responsive', 'utils/mixins', 'utils/typography',
+  'utils/normalize';
+@import 'components/general', 'components/header', 'components/footer',
+  'components/buttons';
+@import 'pages/home';

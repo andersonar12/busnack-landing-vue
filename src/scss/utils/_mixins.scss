@@ -1,0 +1,17 @@
+@mixin bg-image($image: '') {
+  @if $image {
+    background-image: url('/static/img/' + $image);
+  }
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@mixin scroll-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+}
